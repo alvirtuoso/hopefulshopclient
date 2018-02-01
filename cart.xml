@@ -1,0 +1,446 @@
+<?xml version=\"1.0\"?>
+<ItemSearchResponse 
+    xmlns=\"http://webservices.amazon.com/AWSECommerceService/2011-08-01\">
+    <OperationRequest>
+        <RequestId>ab7620a7-78e6-428a-b803-73553072de25</RequestId>
+        <Arguments>
+            <Argument Name=\"AWSAccessKeyId\" Value=\"AKIAJRUQIIT66VD77IJA\"></Argument>
+            <Argument Name=\"AssociateTag\" Value=\"alvirtuoso-20\"></Argument>
+            <Argument Name=\"ItemPage\" Value=\"1\"></Argument>
+            <Argument Name=\"Keywords\" Value=\"B005A4ON90\"></Argument>
+            <Argument Name=\"Operation\" Value=\"ItemSearch\"></Argument>
+            <Argument Name=\"ResponseGroup\" Value=\"Images,ItemAttributes,Reviews,Offers,SalesRank\"></Argument>
+            <Argument Name=\"SearchIndex\" Value=\"All\"></Argument>
+            <Argument Name=\"Service\" Value=\"AWSECommerceService\"></Argument>
+            <Argument Name=\"Timestamp\" Value=\"2017-07-06T18:19:32Z\"></Argument>
+            <Argument Name=\"Signature\" Value=\"6R5hEa9IQA4FiE33sy3fThqO4icdvNcBdX3yfFz4qJk=\"></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0374356930000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemSearchRequest>
+                <ItemPage>1</ItemPage>
+                <Keywords>B005A4ON90</Keywords>
+                <ResponseGroup>Images</ResponseGroup>
+                <ResponseGroup>ItemAttributes</ResponseGroup>
+                <ResponseGroup>Reviews</ResponseGroup>
+                <ResponseGroup>Offers</ResponseGroup>
+                <ResponseGroup>SalesRank</ResponseGroup>
+                <SearchIndex>All</SearchIndex>
+            </ItemSearchRequest>
+        </Request>
+        <TotalResults>1</TotalResults>
+        <TotalPages>1</TotalPages>
+        <MoreSearchResultsUrl>https://www.amazon.com/gp/search?linkCode=xm2&amp;SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;keywords=B005A4ON90&amp;tag=alvirtuoso-20&amp;creative=386001&amp;url=search-alias%3Daws-amazon-aps&amp;camp=2025</MoreSearchResultsUrl>
+        <Item>
+            <ASIN>B005A4ON90</ASIN>
+            <ParentASIN>B015TZFYLA</ParentASIN>
+            <DetailPageURL>https://www.amazon.com/Signature-Sleep-Mattress-CertiPUR-US-Certified/dp/B005A4ON90?psc=1&amp;SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B005A4ON90</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>https://www.amazon.com/Signature-Sleep-Mattress-CertiPUR-US-Certified/dp/tech-data/B005A4ON90?SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>https://www.amazon.com/gp/registry/baby/add-item.html?asin.0=B005A4ON90&amp;SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>https://www.amazon.com/gp/registry/wedding/add-item.html?asin.0=B005A4ON90&amp;SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.com/gp/registry/wishlist/add-item.html?asin.0=B005A4ON90&amp;SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.com/gp/pdp/taf/B005A4ON90?SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.com/review/product/B005A4ON90?SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.com/gp/offer-listing/B005A4ON90?SubscriptionId=AKIAJRUQIIT66VD77IJA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B005A4ON90</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SalesRank>11815</SalesRank>
+            <SmallImage>
+                <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL75_.jpg</URL>
+                <Height Units=\"pixels\">56</Height>
+                <Width Units=\"pixels\">75</Width>
+            </SmallImage>
+            <MediumImage>
+                <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL160_.jpg</URL>
+                <Height Units=\"pixels\">119</Height>
+                <Width Units=\"pixels\">160</Width>
+            </MediumImage>
+            <LargeImage>
+                <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL.jpg</URL>
+                <Height Units=\"pixels\">373</Height>
+                <Width Units=\"pixels\">500</Width>
+            </LargeImage>
+            <ImageSets>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">22</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">56</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">56</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">82</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">119</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL.jpg</URL>
+                        <Height Units=\"pixels\">373</Height>
+                        <Width Units=\"pixels\">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41-ncydm0uL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">21</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41-ncydm0uL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">51</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41-ncydm0uL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">51</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41-ncydm0uL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41-ncydm0uL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">110</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41-ncydm0uL.jpg</URL>
+                        <Height Units=\"pixels\">343</Height>
+                        <Width Units=\"pixels\">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/21Azh%2B8-GEL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">17</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/21Azh%2B8-GEL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">43</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/21Azh%2B8-GEL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">43</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/21Azh%2B8-GEL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">63</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/21Azh%2B8-GEL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">92</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/21Azh%2B8-GEL.jpg</URL>
+                        <Height Units=\"pixels\">287</Height>
+                        <Width Units=\"pixels\">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51qspEIojpL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">30</Height>
+                        <Width Units=\"pixels\">25</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51qspEIojpL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">63</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51qspEIojpL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">63</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51qspEIojpL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">110</Height>
+                        <Width Units=\"pixels\">92</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51qspEIojpL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">160</Height>
+                        <Width Units=\"pixels\">133</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51qspEIojpL.jpg</URL>
+                        <Height Units=\"pixels\">500</Height>
+                        <Width Units=\"pixels\">417</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41ed-g6RszL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">18</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41ed-g6RszL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">45</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41ed-g6RszL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">45</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41ed-g6RszL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">66</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41ed-g6RszL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">96</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41ed-g6RszL.jpg</URL>
+                        <Height Units=\"pixels\">300</Height>
+                        <Width Units=\"pixels\">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51Pj%2BpbkUDL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">30</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51Pj%2BpbkUDL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51Pj%2BpbkUDL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51Pj%2BpbkUDL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">110</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51Pj%2BpbkUDL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">160</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51Pj%2BpbkUDL.jpg</URL>
+                        <Height Units=\"pixels\">500</Height>
+                        <Width Units=\"pixels\">500</Width>
+                    </LargeImage>
+                </ImageSet>
+                <ImageSet Category=\"primary\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">22</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">56</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">56</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">82</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">119</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/51HixLNZCrL.jpg</URL>
+                        <Height Units=\"pixels\">373</Height>
+                        <Width Units=\"pixels\">500</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Kitchen</Binding>
+                <Brand>Signature Sleep</Brand>
+                <Color>White</Color>
+                <EAN>0029986547439</EAN>
+                <EANList>
+                    <EANListElement>0029986547439</EANListElement>
+                </EANList>
+                <Feature>The Signature Sleep mattresses are made with one 2 inch top layer of comfortable memory foam, followed by a 6 inch layer of high density 9 ILD, 2 pound memory foam. The mattresses mold to the body's natural shape for a comfortable night's sleep.</Feature>
+                <Feature>Signature Sleep Memoir 8 mattresses include a soft breathable knit fabric mattress cover and works on multiple surfaces including box spring beds, sofa beds, bunk beds, daybeds, platform beds, and trundle beds.</Feature>
+                <Feature>The 8 inch memory foam mattress ships compressed, rolled, and vacuum sealed in a single box, right to your door step! Ready for sleep within a few hours.</Feature>
+                <Feature>Comfortable, eco-friendly mattresses minimizes pressure on the body, distributes weight evenly and provides balanced support no matter how much you toss and turn.</Feature>
+                <Feature>The Signature Sleep Memoir 8 inch mattresses are available in multiple size options including twin mattress, full mattress, queen mattress, and king mattress.   Please allow 48 hours for your new mattress to fully expand to its size.</Feature>
+                <IsAdultProduct>0</IsAdultProduct>
+                <IsAutographed>0</IsAutographed>
+                <ItemDimensions>
+                    <Height Units=\"hundredths-inches\">800</Height>
+                    <Length Units=\"hundredths-inches\">6000</Length>
+                    <Weight Units=\"hundredths-pounds\">4400</Weight>
+                    <Width Units=\"hundredths-inches\">8000</Width>
+                </ItemDimensions>
+                <Label>Dorel Home Furnishings</Label>
+                <ListPrice>
+                    <Amount>36000</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$360.00</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Dorel Home Furnishings</Manufacturer>
+                <Model>5474296</Model>
+                <MPN>5474296</MPN>
+                <NumberOfItems>1</NumberOfItems>
+                <PackageDimensions>
+                    <Height Units=\"hundredths-inches\">1150</Height>
+                    <Length Units=\"hundredths-inches\">6100</Length>
+                    <Weight Units=\"hundredths-pounds\">5150</Weight>
+                    <Width Units=\"hundredths-inches\">1460</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>5474296</PartNumber>
+                <ProductGroup>Furniture</ProductGroup>
+                <ProductTypeName>HOME_FURNITURE_AND_DECOR</ProductTypeName>
+                <Publisher>Dorel Home Furnishings</Publisher>
+                <Size>Queen</Size>
+                <Studio>Dorel Home Furnishings</Studio>
+                <Title>Signature Sleep Memoir 8 Inch Memory Foam Mattress with Low VOC CertiPUR-US Certified Foam, 8 Inch Queen Memory Foam Mattress - Available in Multiple Sizes</Title>
+                <UPC>029986547439</UPC>
+                <UPCList>
+                    <UPCListElement>029986547439</UPCListElement>
+                </UPCList>
+                <Warranty>Yes</Warranty>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>10500</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$105.00</FormattedPrice>
+                </LowestNewPrice>
+                <TotalNew>9</TotalNew>
+                <TotalUsed>0</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>0</TotalOffers>
+                <TotalOfferPages>0</TotalOfferPages>
+                <MoreOffersUrl>0</MoreOffersUrl>
+            </Offers>
+            <CustomerReviews>
+                <IFrameURL>https://www.amazon.com/reviews/iframe?akid=AKIAJRUQIIT66VD77IJA&amp;alinkCode=xm2&amp;asin=B005A4ON90&amp;atag=alvirtuoso-20&amp;exp=2017-07-07T18%3A11%3A15Z&amp;v=2&amp;sig=FqzqT%252B7yMVXviOK6DDkqGUS3fFZg39OleIVJ88nn20M%253D</IFrameURL>
+                <HasReviews>true</HasReviews>
+            </CustomerReviews>
+        </Item>
+    </Items>
+</ItemSearchResponse>
+
+
+<?xml version=\"1.0\"?>
+<CartCreateResponse 
+    xmlns=\"http://webservices.amazon.com/AWSECommerceService/2011-08-01\">
+    <OperationRequest>
+        <RequestId>889a325f-715b-4a4d-aad4-7ea403bc74ea</RequestId>
+        <Arguments>
+            <Argument Name=\"AWSAccessKeyId\" Value=\"AKIAJRUQIIT66VD77IJA\" />
+            <Argument Name=\"AssociateTag\" Value=\"alvirtuoso-20\" />
+            <Argument Name=\"Item.0.OfferListingId\" Value=\"O%2BgodJ4NRm6W7hpJ%2BMnq3WOjd2XBgBGGhXseY0hwXwXk%2Bg3pib7iO2n2zs7TIUqt4S%2FesgwC4Usv5m4RA5tODZkBcPf2l7lhGGIk1vJjtoWmCKIPMEi8%2FOiZOmh0FtUIJeATUOZrazqQk3qXc2Gve2BtjNR%2B2SmZ\" />
+            <Argument Name=\"Item.0.Quantity\" Value=\"1\" />
+            <Argument Name=\"Operation\" Value=\"CartCreate\" />
+            <Argument Name=\"ResponseGroup\" Value=\"CartTopSellers\" />
+            <Argument Name=\"Service\" Value=\"AWSECommerceService\" />
+            <Argument Name=\"Timestamp\" Value=\"2017-07-07T00:30:56Z\" />
+            <Argument Name=\"Signature\" Value=\"3PhQqD8/0HZQp2Q7zEYX/NBDgjVBiVqovU6YcP19Fhg=\" />
+        </Arguments>
+        <RequestProcessingTime>0.22800536</RequestProcessingTime>
+    </OperationRequest>
+    <Cart>
+        <Request>
+            <IsValid>True</IsValid>
+            <CartCreateRequest>
+                <Items>
+                    <Item>
+                        <OfferListingId>O%2BgodJ4NRm6W7hpJ%2BMnq3WOjd2XBgBGGhXseY0hwXwXk%2Bg3pib7iO2n2zs7TIUqt4S%2FesgwC4Usv5m4RA5tODZkBcPf2l7lhGGIk1vJjtoWmCKIPMEi8%2FOiZOmh0FtUIJeATUOZrazqQk3qXc2Gve2BtjNR%2B2SmZ</OfferListingId>
+                        <Quantity>1</Quantity>
+                    </Item>
+                </Items>
+                <ResponseGroup>CartTopSellers</ResponseGroup>
+            </CartCreateRequest>
+        </Request>
+        <TopSellers>
+            <TopSeller>
+                <ASIN>B019DM86LA</ASIN>
+                <Title>Bounty Select-a-Size Paper Towels, White, Huge Roll, 12 Count</Title>
+            </TopSeller>
+            <TopSeller>
+                <ASIN>B00HSC9F2C</ASIN>
+                <Title>Clorox Disinfecting Wipes Value Pack, Fresh Scent and Citrus Blend, 225 Count</Title>
+            </TopSeller>
+            <TopSeller>
+                <ASIN>B010OW13V8</ASIN>
+                <Title>Kleenex Ultra Soft Facial Tissues, Medium Count Flat, 170 ct, 6 Pack. Designs May Vary</Title>
+            </TopSeller>
+            <TopSeller>
+                <ASIN>B003YT6RNS</ASIN>
+                <Title>HP 61 Black &amp; Tri-color Original Ink Cartridges, 2 pack (CR259FN)</Title>
+            </TopSeller>
+            <TopSeller>
+                <ASIN>0375869026</ASIN>
+                <Title>Wonder</Title>
+            </TopSeller>
+        </TopSellers>
+    </Cart>
+</CartCreateResponse>
+
+
+

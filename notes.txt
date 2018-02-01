@@ -1,0 +1,133 @@
+******************* TODO ************************
+DONE:  buy a domain!!
+** 1)TEST SERVER-Side VisitorCountry from outside country
+2)Enhancements
+  a)Add client side tests
+  b)Continuous integration(enhancement)
+3) Hx Viewed Items - in progress as of 08/02/2017
+4) Server hardening
+**5) Logging - Done 08/19/2017
+
+********** B U G S **************
+**1) Not showing items with no price. 2 Examples:
+ ** a) Fixed on 08/04/2017 - asin B003VSPXNC - Microdermabrasion accesories - Air/Oil filter
+    -- only available from sellers
+**  b)Fixed on 08/04/2017 - B00GFBNXNO  
+
+*************** Build Release for API Backend *******************
+Hosted in Vultr VPN. Reason: 1) Cheapest to start with. Only $2.50/mo
+1.) ssh root@server_ip to server - see vultr dashboard 
+2.) cd ~/source/shop-server  ->  git pull    to pull latest code
+3. ) dotnet restore
+4.) stop shop.service first before build. Run command: systemctl stop shop.service   
+5.) dotnet publish -c Release -o /var/webapps/shop-api     to release latest build
+6.) systemctl start shop.service
+*******************************************
+
+***************** Build Release for Client *******************
+Hosted in firebase.google. Reasons: a) Free SSL b)Faster than hosted in Vultr from my initial tests. CDN everywhere
+1) open local terminal and go to ~/Projects/shop-client  -> run command: npm run build
+2) open local terminal and go to ~/Projects/shop-client/dist  ->  run command: firebase deploy    
+
+***************************************************************
+
+****************  Remote access to MySql DB like Sequel Pro ******************
+login as root user.
+mysql> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'localhost'
+    ->     WITH GRANT OPTION;
+mysql> CREATE USER 'monty'@'%' IDENTIFIED BY 'some_pass';
+mysql> GRANT ALL PRIVILEGES ON *.* TO 'monty'@'%'
+    ->     WITH GRANT OPTION;
+
+
+************** SSL *******************
+IMPORTANT NOTES:
+ - Your account credentials have been saved in your Certbot
+   configuration directory at /etc/letsencrypt. You should make a
+   secure backup of this folder now. This configuration directory will
+   also contain certificates and private keys obtained by Certbot so
+   making regular backups of this folder is ideal.
+
+IMPORTANT NOTES:
+ - Congratulations! Your certificate and chain have been saved at
+   /etc/letsencrypt/live/hopeful.shop/fullchain.pem. Your cert will
+   expire on 2017-10-27. To obtain a new or tweaked version of this
+   certificate in the future, simply run certbot again with the
+   "certonly" option. To non-interactively renew *all* of your
+   certificates, run "certbot renew"
+ - If you like Certbot, please consider supporting our work by:
+
+   Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
+   Donating to EFF:                    https://eff.org/donate-le
+****************************************
+
+**************** FREE SMTP ****************
+SparkPost (free up to 100,000 emails per month)
+Mailgun (free up to 10,000 emails per month)
+Mailjet (free up to 6,000 emails per month)
+
+>>>> NodeMailer FREE SMTP SERVER JavaScript
+
+var nodemailer = require('nodemailer');
+var transporter = nodemailer.createTransport();
+
+transporter.sendMail({
+   from: 'sender@address',
+   to: 'receiver@address',
+   subject: 'hello',
+   html: '<b>hello world!</b>'
+   text: 'hello world!'
+});
+
+var nodemailer = require('nodemailer');
+var transporter = nodemailer.createTransport();
+ 
+transporter.sendMail({
+   from: 'sender@address',
+   to: 'receiver@address',
+   subject: 'hello',
+   html: '<b>hello world!</b>'
+   text: 'hello world!'
+});
+*******************************************
+
+*************** User Identity in Asp.net Core **************
+You can create new project using 
+    dotnet new mvc --auth Individual 
+command and then copy identity-related code to your project.
+
+
+**************** Regex ***************************
+// matches "n or nn or nnnnn customer reviews" regex
+/[0-9]{1,9}\s(customer reviews)\b/g
+
+// matches n or n.n of 5 stars
+[0-9](\.[0-9])?\s(out of 5 stars)\b
+
+***************** async component ***************
+You don't make a component async in the vue file, but in the place where you require the vue file:
+
+Vue.component('async-webpack-example', function (resolve) {
+  // This special require syntax will instruct Webpack to
+  // automatically split your built code into bundles which
+  // are loaded over Ajax requests.
+  require(['./my-async-component.vue'], resolve)
+})
+
+******************* Amazon Sort parameters  ***************
+'psrank','salesrank','price','-price','titlerank'
+salesrank = Bestseller
+psrank = Bestseller taking into consideration projected sales
+
+******************* Iframe Bootstrap4 CSS *****************************
+<div class="embed-responsive embed-responsive-16by9">
+<iframe class="embed-responsive-item" src="https://www.amazon.com/reviews/iframe?akid=AKIAJMJ3Q4UQJSG6WOIA&alinkCode=xm2&asin=B01E9BND2W&atag=alvirtuoso-20&exp=2017-05-10T02%3A01%3A43Z&v=2&sig=wXL2UbQzOz%252FL0i3r2zoeTWOKAkLxBXoGDW3SQ96w78I%253D" allowfullscreen></iframe>
+</div>
+
+<router-link :to="{ name: 'detail', params: { selectedItem: item }}">
+
+    SetFound: function(state, { result }){
+        state.found = result;
+    },
+    

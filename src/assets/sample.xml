@@ -1,0 +1,206 @@
+<?xml version=\"1.0\"?>
+<ItemSearchResponse 
+    xmlns=\"http://webservices.amazon.com/AWSECommerceService/2011-08-01\">
+    <OperationRequest>
+        <RequestId>f1e2d63b-1ef4-49b9-bf3b-f6595ef85b80</RequestId>
+        <Arguments>
+            <Argument Name=\"AWSAccessKeyId\" Value=\"AKIAJMJ3Q4UQJSG6WOIA\"></Argument>
+            <Argument Name=\"AssociateTag\" Value=\"alvirtuoso-20\"></Argument>
+            <Argument Name=\"ItemPage\" Value=\"1\"></Argument>
+            <Argument Name=\"Keywords\" Value=\"B0163K1Z3G\"></Argument>
+            <Argument Name=\"Operation\" Value=\"ItemSearch\"></Argument>
+            <Argument Name=\"ResponseGroup\" Value=\"Images,ItemAttributes,Reviews,Offers,SalesRank\"></Argument>
+            <Argument Name=\"SearchIndex\" Value=\"All\"></Argument>
+            <Argument Name=\"Service\" Value=\"AWSECommerceService\"></Argument>
+            <Argument Name=\"Timestamp\" Value=\"2017-05-20T03:48:13Z\"></Argument>
+            <Argument Name=\"Signature\" Value=\"mdgU4mB3MrirW4iz/n63A2tV9aBTS0DwGkhd99IideQ=\"></Argument>
+        </Arguments>
+        <RequestProcessingTime>0.0817186040000000</RequestProcessingTime>
+    </OperationRequest>
+    <Items>
+        <Request>
+            <IsValid>True</IsValid>
+            <ItemSearchRequest>
+                <ItemPage>1</ItemPage>
+                <Keywords>B0163K1Z3G</Keywords>
+                <ResponseGroup>Images</ResponseGroup>
+                <ResponseGroup>ItemAttributes</ResponseGroup>
+                <ResponseGroup>Reviews</ResponseGroup>
+                <ResponseGroup>Offers</ResponseGroup>
+                <ResponseGroup>SalesRank</ResponseGroup>
+                <SearchIndex>All</SearchIndex>
+            </ItemSearchRequest>
+        </Request>
+        <TotalResults>1</TotalResults>
+        <TotalPages>1</TotalPages>
+        <MoreSearchResultsUrl>https://www.amazon.com/gp/search?linkCode=xm2&amp;SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;keywords=B0163K1Z3G&amp;tag=alvirtuoso-20&amp;creative=386001&amp;url=search-alias%3Daws-amazon-aps&amp;camp=2025</MoreSearchResultsUrl>
+        <Item>
+            <ASIN>B0163K1Z3G</ASIN>
+            <DetailPageURL>https://www.amazon.com/Nutri-Bullet-Piece-NB9-1301-Blender/dp/B0163K1Z3G?SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=165953&amp;creativeASIN=B0163K1Z3G</DetailPageURL>
+            <ItemLinks>
+                <ItemLink>
+                    <Description>Technical Details</Description>
+                    <URL>https://www.amazon.com/Nutri-Bullet-Piece-NB9-1301-Blender/dp/tech-data/B0163K1Z3G?SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Baby Registry</Description>
+                    <URL>https://www.amazon.com/gp/registry/baby/add-item.html?asin.0=B0163K1Z3G&amp;SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wedding Registry</Description>
+                    <URL>https://www.amazon.com/gp/registry/wedding/add-item.html?asin.0=B0163K1Z3G&amp;SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Add To Wishlist</Description>
+                    <URL>https://www.amazon.com/gp/registry/wishlist/add-item.html?asin.0=B0163K1Z3G&amp;SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>Tell A Friend</Description>
+                    <URL>https://www.amazon.com/gp/pdp/taf/B0163K1Z3G?SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Customer Reviews</Description>
+                    <URL>https://www.amazon.com/review/product/B0163K1Z3G?SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+                <ItemLink>
+                    <Description>All Offers</Description>
+                    <URL>https://www.amazon.com/gp/offer-listing/B0163K1Z3G?SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</URL>
+                </ItemLink>
+            </ItemLinks>
+            <SalesRank>539</SalesRank>
+            <ImageSets>
+                <ImageSet Category=\"variant\">
+                    <SwatchImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41stQ4vu56L._SL30_.jpg</URL>
+                        <Height Units=\"pixels\">30</Height>
+                        <Width Units=\"pixels\">30</Width>
+                    </SwatchImage>
+                    <SmallImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41stQ4vu56L._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </SmallImage>
+                    <ThumbnailImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41stQ4vu56L._SL75_.jpg</URL>
+                        <Height Units=\"pixels\">75</Height>
+                        <Width Units=\"pixels\">75</Width>
+                    </ThumbnailImage>
+                    <TinyImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41stQ4vu56L._SL110_.jpg</URL>
+                        <Height Units=\"pixels\">110</Height>
+                        <Width Units=\"pixels\">110</Width>
+                    </TinyImage>
+                    <MediumImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41stQ4vu56L._SL160_.jpg</URL>
+                        <Height Units=\"pixels\">160</Height>
+                        <Width Units=\"pixels\">160</Width>
+                    </MediumImage>
+                    <LargeImage>
+                        <URL>https://images-na.ssl-images-amazon.com/images/I/41stQ4vu56L.jpg</URL>
+                        <Height Units=\"pixels\">350</Height>
+                        <Width Units=\"pixels\">350</Width>
+                    </LargeImage>
+                </ImageSet>
+            </ImageSets>
+            <ItemAttributes>
+                <Binding>Kitchen</Binding>
+                <Brand>NutriBullet</Brand>
+                <Color>Champagne</Color>
+                <EAN>0856915005575</EAN>
+                <EANList>
+                    <EANListElement>0856915005575</EANListElement>
+                </EANList>
+                <Feature>13-piece set</Feature>
+                <Feature>900-Watt motor, power supply: 120V</Feature>
+                <Feature>Quick and simple to use and clean</Feature>
+                <Feature>Extract and drink in the same cup</Feature>
+                <Feature>Hardcover Recipe Book Included</Feature>
+                <ItemDimensions>
+                    <Height Units=\"hundredths-inches\">1594</Height>
+                    <Length Units=\"hundredths-inches\">1201</Length>
+                    <Weight Units=\"hundredths-pounds\">470</Weight>
+                    <Width Units=\"hundredths-inches\">772</Width>
+                </ItemDimensions>
+                <Label>Nutri Bullet</Label>
+                <ListPrice>
+                    <Amount>9999</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$99.99</FormattedPrice>
+                </ListPrice>
+                <Manufacturer>Nutri Bullet</Manufacturer>
+                <Model>NB9-1301</Model>
+                <MPN>NB9-1301P</MPN>
+                <NumberOfItems>1</NumberOfItems>
+                <PackageDimensions>
+                    <Height Units=\"hundredths-inches\">780</Height>
+                    <Length Units=\"hundredths-inches\">1600</Length>
+                    <Weight Units=\"hundredths-pounds\">1005</Weight>
+                    <Width Units=\"hundredths-inches\">1210</Width>
+                </PackageDimensions>
+                <PackageQuantity>1</PackageQuantity>
+                <PartNumber>NB9-1301P</PartNumber>
+                <ProductGroup>Kitchen</ProductGroup>
+                <ProductTypeName>KITCHEN</ProductTypeName>
+                <Publisher>Nutri Bullet</Publisher>
+                <Studio>Nutri Bullet</Studio>
+                <Title>Nutri Bullet 13 Piece NB9-1301 Pro Blender/Mixer</Title>
+                <UPC>856915005575</UPC>
+                <UPCList>
+                    <UPCListElement>856915005575</UPCListElement>
+                </UPCList>
+            </ItemAttributes>
+            <OfferSummary>
+                <LowestNewPrice>
+                    <Amount>8449</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$84.49</FormattedPrice>
+                </LowestNewPrice>
+                <LowestUsedPrice>
+                    <Amount>7182</Amount>
+                    <CurrencyCode>USD</CurrencyCode>
+                    <FormattedPrice>$71.82</FormattedPrice>
+                </LowestUsedPrice>
+                <TotalNew>3</TotalNew>
+                <TotalUsed>20</TotalUsed>
+                <TotalCollectible>0</TotalCollectible>
+                <TotalRefurbished>0</TotalRefurbished>
+            </OfferSummary>
+            <Offers>
+                <TotalOffers>1</TotalOffers>
+                <TotalOfferPages>1</TotalOfferPages>
+                <MoreOffersUrl>https://www.amazon.com/gp/offer-listing/B0163K1Z3G?SubscriptionId=AKIAJMJ3Q4UQJSG6WOIA&amp;tag=alvirtuoso-20&amp;linkCode=xm2&amp;camp=2025&amp;creative=386001&amp;creativeASIN=B0163K1Z3G</MoreOffersUrl>
+                <Offer>
+                    <OfferAttributes>
+                        <Condition>New</Condition>
+                    </OfferAttributes>
+                    <OfferListing>
+                        <OfferListingId>498rCBWUanXOV4wyPyHH6PhK3RFSlofFYdJUcME%2BduSRCWO9Qx9c7tHaKek5q2%2Bmz%2FvWMaML%2Ft3X3n04eSrCEOhPXIem%2FMFRlPgGSuGMdzsJpJs8ujencw%3D%3D</OfferListingId>
+                        <Price>
+                            <Amount>8449</Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <FormattedPrice>$84.49</FormattedPrice>
+                        </Price>
+                        <AmountSaved>
+                            <Amount>1550</Amount>
+                            <CurrencyCode>USD</CurrencyCode>
+                            <FormattedPrice>$15.50</FormattedPrice>
+                        </AmountSaved>
+                        <PercentageSaved>16</PercentageSaved>
+                        <Availability>Usually ships in 24 hours</Availability>
+                        <AvailabilityAttributes>
+                            <AvailabilityType>now</AvailabilityType>
+                            <MinimumHours>0</MinimumHours>
+                            <MaximumHours>0</MaximumHours>
+                        </AvailabilityAttributes>
+                        <IsEligibleForSuperSaverShipping>1</IsEligibleForSuperSaverShipping>
+                        <IsEligibleForPrime>1</IsEligibleForPrime>
+                    </OfferListing>
+                </Offer>
+            </Offers>
+            <CustomerReviews>
+                <IFrameURL>https://www.amazon.com/reviews/iframe?akid=AKIAJMJ3Q4UQJSG6WOIA&amp;alinkCode=xm2&amp;asin=B0163K1Z3G&amp;atag=alvirtuoso-20&amp;exp=2017-05-21T03%3A41%3A02Z&amp;v=2&amp;sig=VfGtmlIBG3axndaq%252BeB%252B83HlB5uEcEB4NKG2661C4c0%253D</IFrameURL>
+                <HasReviews>true</HasReviews>
+            </CustomerReviews>
+        </Item>
+    </Items>
+</ItemSearchResponse>
